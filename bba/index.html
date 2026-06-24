@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClinXAI - Explainable AI for Clinical Decision Support</title>
+    <meta name="description"
+        content="Advanced AI-powered clinical decision support with transparent, explainable insights for healthcare professionals">
+
+    <!-- Inter font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Three.js dynamic background -->
+    <div id="three-background"></div>
+
+    <!-- Main content container -->
+    <main class="site-main">
+
+        <!-- 1. HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content" data-scroll-track>
+                <h1 class="hero-title">ClinXAI</h1>
+                <p class="hero-subtitle">Explainable AI for Clinical Decision Support</p>
+                <button class="hero-cta" id="get-started-btn">Get Started</button>
+            </div>
+        </section>
+
+        <!-- 2. PROJECT OVERVIEW SECTION -->
+        <section id="overview" class="overview-section">
+            <div class="section-inner">
+                <div class="overview-content">
+                    <p class="overview-line" data-scroll-track data-priority="1">
+                        ClinXAI delivers real-time diagnostic insights powered by deep learning, trained on medical
+                        imaging datasets to assist clinicians in critical decision-making.
+                    </p>
+                    <p class="overview-line" data-scroll-track data-priority="2">
+                        Every prediction is accompanied by transparent visual explanations, ensuring trust and
+                        interpretability in high-stakes clinical environments.
+                    </p>
+                    <p class="overview-line" data-scroll-track data-priority="3">
+                        Built for speed, accuracy, and clarity—empowering healthcare professionals with AI they can
+                        understand.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. FEATURE STORY SECTION -->
+        <section id="features" class="features-section">
+            <div class="section-inner">
+
+                <div class="feature-block" data-scroll-track data-priority="1">
+                    <h3 class="feature-title">Real-Time Analysis</h3>
+                    <p class="feature-description">
+                        Upload medical images and receive diagnostic predictions within seconds.
+                        The system processes X-rays using optimized neural networks designed for clinical accuracy.
+                    </p>
+                </div>
+
+                <div class="feature-block offset-right" data-scroll-track data-priority="2">
+                    <h3 class="feature-title">Explainable Insights</h3>
+                    <p class="feature-description">
+                        Grad-CAM heatmaps highlight the exact regions influencing each diagnosis,
+                        providing visual transparency that builds confidence in AI-driven recommendations.
+                    </p>
+                </div>
+
+                <div class="feature-block" data-scroll-track data-priority="3">
+                    <h3 class="feature-title">Clinical-Grade Infrastructure</h3>
+                    <p class="feature-description">
+                        Engineered with medical-grade data pipelines, secure handling protocols,
+                        and deployment-ready architecture that meets the demands of professional healthcare settings.
+                    </p>
+                </div>
+
+                <div class="feature-block offset-right" data-scroll-track data-priority="4">
+                    <h3 class="feature-title">Edge-Optimized Performance</h3>
+                    <p class="feature-description">
+                        Lightweight models ensure rapid inference even in resource-constrained environments,
+                        making advanced AI accessible without requiring specialized hardware.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 4. IMMERSIVE VISUAL TRANSITION -->
+        <section id="visual-break" class="visual-section">
+            <div class="visual-content" data-scroll-track>
+                <p class="visual-statement">
+                    Intelligent systems, transparent decisions
+                </p>
+            </div>
+        </section>
+
+        <!-- 5. TEAM SECTION -->
+        <section id="team-section" class="team-section">
+            <div class="section-inner">
+
+                <!-- Title -->
+                <header class="team-header" data-scroll-track>
+                    <h2 class="team-title">Project Team</h2>
+                    <p class="team-subtitle">People behind ClinXAI</p>
+                </header>
+
+                <!-- Team composition -->
+                <div class="team-composition">
+
+                    <!-- Team Leader -->
+                    <article class="team-member leader" data-scroll-track data-priority="1">
+                        <div class="member-card">
+                            <span class="role-indicator">Team Lead</span>
+                            <div class="member-identity">
+                                <div class="avatar">ST</div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Shaik Danka Soha Tabassum</h3>
+                                    <p class="member-title">AI Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Team Members -->
+                    <article class="team-member" data-scroll-track data-priority="2">
+                        <div class="member-card">
+                            <div class="member-identity">
+                                <div class="avatar">LA</div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Lingireddy Naga Aparna</h3>
+                                    <p class="member-title">ML Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="team-member" data-scroll-track data-priority="3">
+                        <div class="member-card">
+                            <div class="member-identity">
+                                <div class="avatar">MS</div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Mogili Susmitha</h3>
+                                    <p class="member-title">Backend Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="team-member" data-scroll-track data-priority="4">
+                        <div class="member-card">
+                            <div class="member-identity">
+                                <div class="avatar">RA</div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Ramireddy Ambika</h3>
+                                    <p class="member-title">Frontend Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="team-member" data-scroll-track data-priority="5">
+                        <div class="member-card">
+                            <div class="member-identity">
+                                <div class="avatar">VL</div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Vellala Reddy Lalitha</h3>
+                                    <p class="member-title">Data Scientist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Guide attribution -->
+                <footer class="team-attribution" data-scroll-track data-priority="6">
+                    <p class="guide-line">Guided by <strong>Dr. Y. Dasaratha Rami Reddy</strong></p>
+                    <p class="batch-line">Project Batch: G-1</p>
+                </footer>
+
+            </div>
+        </section>
+
+        <!-- 6. FINAL CALL-TO-ACTION -->
+        <section id="final-cta" class="cta-section">
+            <div class="section-inner">
+                <div class="cta-content" data-scroll-track>
+                    <p class="cta-statement">Ready to experience transparent AI in clinical practice?</p>
+                    <button class="cta-button" id="launch-btn">Launch System</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
